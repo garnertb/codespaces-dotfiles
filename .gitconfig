@@ -1,0 +1,29 @@
+[alias]
+	a = add
+	ammend = commit --amend
+	branches = branch --list --verbose
+	createbranch = checkout -b
+	check = checkout
+	co = checkout
+	cob = checkout -b
+	d = diff
+	deletebranch = branch -D
+	dh = diff HEAD
+	logline = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	loglines = logline
+	p = push
+	remotes = remote --verbose
+	reword = commit --amend
+	s = status
+	sobmodules = submodule update --init --recursive
+	stagediff = dh 
+	unstage = reset HEAD --
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[init]
+	defaultBranch = main
+[push]
+	default = current
