@@ -5,6 +5,7 @@ Dotfiles are files and folders on Unix-like systems starting with . that control
 You can configure GitHub Codespaces to use dotfiles from any repository you own by selecting that repository in your personal GitHub Codespaces settings.
 
 When you create a new codespace, GitHub clones your selected dotfiles repository to the codespace environment, and looks for one of the following files to set up the environment.
+
 ```
 install.sh
 install
@@ -24,3 +25,4 @@ Any changes to your selected dotfiles repository will apply only to each new cod
 
 * [Dotfiles for Codespaces](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#dotfiles)
 * [Enabling Codespaces to use Dotfiles](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#enabling-your-dotfiles-repository-for-codespaces)
+* [ Configure codespace dotfile repository ](https://github.com/settings/codespaces) 
