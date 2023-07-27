@@ -1,4 +1,4 @@
-# devcontainer-dotfiles
+# codespaces-dotfiles
 
 Dotfiles are files and folders on Unix-like systems starting with . that control the configuration of applications and shells on your system. Your dotfiles repository might include your shell aliases and preferences, any tools you want to install, or any other codespace personalization you want to make.
 
